@@ -28,3 +28,7 @@ git merge hero
 #if a conflict between files when doing merge will put text in file showing changes can
 #then edit the file how want it then do the commit.
  
+#after github setup and push then when changes made locally only need
+#to commit and then 
+git push
+
