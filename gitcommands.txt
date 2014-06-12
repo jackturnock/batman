@@ -23,3 +23,5 @@ git checkout hero
 
 #this merges the hero branch into the current branch
 git merge hero
+
+#another command
