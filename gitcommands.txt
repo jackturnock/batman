@@ -1,0 +1,23 @@
+
+git status
+git add # to add a file for tracking
+git commit  -m "message here"
+
+#if already added a file and made changes then can do this commits all files already added
+git commit -a -m "message here"  
+
+git config --global alias.ci "commit -a"
+#then do this uses the alias "ci" for "commit -a"
+git ci -m "message here"
+
+git config --global alias.lol "log --oneline --graph --decorate"
+
+# prints out all aliases
+git config --global -l
+
+#to create a new branch called hero
+git branch hero
+
+# change to branch hero
+git checkout hero
+
